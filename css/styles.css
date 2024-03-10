@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+}
+.cv-page .section-content strong {
+    width: 150px;
+    display: inline-block;
+}
+/* CSS để tạo layout cho phần "Học vấn" */
+.education-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-col {
+    flex: 1;
+}
+.cv-page .section-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+  
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+   
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+
+    padding: 40px
+}
+
